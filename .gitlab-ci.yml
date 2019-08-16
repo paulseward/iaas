@@ -3,6 +3,7 @@ image: "thanandorn/gkh:0.11.10"
 before_script:
   - gcloud auth activate-service-account --key-file=$SVC_ACCT
   - gcloud config set project intrepid-signal-149714
+  - gcloud components install app-engine-go
 
 deploy_iaas:
   script:
