@@ -7,6 +7,6 @@ before_script:
 
 deploy_iaas:
   script:
-    - export GOPATH=${pwd}
+    - export GOPATH=$(pwd)
     - go get google.golang.org/appengine
     - gcloud app deploy --project=intrepid-signal-149714 ./helloworld/app.yaml
