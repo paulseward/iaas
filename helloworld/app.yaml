@@ -1,0 +1,9 @@
+# Insults As A Service - Golang+Appengine version
+
+runtime: go
+api_version: go1
+service: iaas
+
+handlers:
+- url: /.*
+  script: _go_app
