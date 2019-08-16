@@ -7,5 +7,5 @@ before_script:
 
 deploy_iaas:
   script:
-    - go get google.golang.org/appengine
+    #- go get google.golang.org/appengine
     - gcloud app deploy --project=intrepid-signal-149714 ./helloworld/app.yaml
