@@ -3,7 +3,7 @@ image: "google/cloud-sdk"
 before_script:
   - gcloud auth activate-service-account --key-file=$SVC_ACCT
   - gcloud config set project intrepid-signal-149714
-  - sudo apt-get -y install google-cloud-sdk-app-engine-go
+  #- sudo apt-get -y install google-cloud-sdk-app-engine-go
 
 deploy_iaas:
   script:
