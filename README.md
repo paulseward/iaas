@@ -3,7 +3,7 @@
 Appengine experimentation
 
 ```
-To deploy to the playground:
+To deploy:
 
-gcloud app deploy --project=intrepid-signal-149714 ./helloworld/app.yaml
+gcloud app deploy --project=$GCP_PROJECT ./iaas/app.yaml
 ```
